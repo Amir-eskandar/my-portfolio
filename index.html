@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device, initial-scale=1.0" />
+    <title>Amir Eskandar Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/devjane.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Service</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">My Skills</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Amir Eskandar</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Full-Stack dev</p>
+      <img
+        class="intro__img"
+        src="amir-img/amir-esk-01.jpeg"
+        alt="a picture of Amir Eskandar smiling"
+      />
+    </section>
+    <!--My services-->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Design + Develepment</h3>
+          <p>
+            I love to play with HTML/HTML5, & CSS/CSS3, BootStrap, JavaScript,
+            Oject-oriented Programming in Javascript & JQuery and SASS(scss).
+          </p>
+        </div>
+        <div class="service">
+          <h3>Front-end Dev</h3>
+          <p>
+            I love to play with react, react-router-dom,react-hook, Redux,
+            momentjs, axios!
+          </p>
+        </div>
+        <div class="service">
+          <h3>Back-end Dev</h3>
+          <p>
+            I have good understanding of Back-end side using Node.js, Express,
+            Mongoose, cors, MongoDB & MongoDB Atlas, Postman
+          </p>
+        </div>
+      </div>
+
+      <a href="#work" class="btn">My Work</a>
+    </section>
+    <!--About Me-->
+    <section class="about-me" id="about">
+      <h2 class="section_title section__title--abouyt">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Full-stack Developer
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          I am currently accepting freelance work as a Full-stack Developer,
+          which is where my passion for design and development converge, I'd
+          love to get coffee and get to know you, so don’t hesitate to get in
+          touch.
+        </p>
+        <p>
+          Previously, I was working as a Telecom Engineer for 5 years. I had
+          good experience with treating customers and achieving their needs. I
+          am good relocating, I worked in Algeria for almost 2 years as a site
+          installation engineer and team leader. I had worked in Ethiopia for
+          one year as a project manager.
+        </p>
+        <p>See my previous work history on LinkedIn.</p>
+      </div>
+      <img
+        class="about-me__img"
+        src="amir-img/amir-esk-02.jpg"
+        alt="amir in the sea"
+      />
+    </section>
+    <!--My Work-->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        Selection of my range of work
+      </p>
+      <div class="portfolio">
+        <!--portfolio-item-01-->
+        <a
+          href="./photography-website-using-Bootstrap/index.html"
+          target="blank"
+          class="portfolio__item"
+        >
+          <img
+            src="img/bootstrap.png"
+            alt=""
+            height="342"
+            class="portfolio__img"
+          />
+        </a>
+        <!--portfolio-item-02-->
+        <a
+          href="https://github.com/Amir-eskandar/coding-books-using-google-api"
+          target="blank"
+          class="portfolio__item"
+        >
+          <img
+            src="img/react-book-app.png"
+            alt=""
+            height="342"
+            class="portfolio__img"
+          />
+        </a>
+        <!--portfolio-item-03-->
+        <a
+          href="./Exchange-rate-calculator/index.html"
+          target="blank"
+          class="portfolio__item"
+        >
+          <img
+            src="img/Exchange Rate Calculator.png"
+            alt=""
+            height="341"
+            class="portfolio__img"
+          />
+        </a>
+        <!--portfolio-item-04-->
+        <a href="./sass-crash-course/index.html" class="portfolio__item">
+          <img
+            src="img/alskandar-marketing.png"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+        <!--portfolio-item-05-->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio-05.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!--portfolio-item-06-->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio-06.jpg" alt="" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+    <!--footer-->
+    <footer class="footer">
+      <a href="mailto:amirsobhylabib7@gmail.com" class="footer__link"
+        >amirsobhylabib7@gmail.com</a
+      ><br />
+      <a href="tel:+46704520527" class="footer__link">+46704520527</a> <br />
+      <a href="tel:+48698150534" class="footer__link">+48698150534</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            href="https://twitter.com/amirsobhylabib7"
+            class="social-list__link"
+            target="blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://github.com/Amir-eskandar"
+            class="social-list__link"
+            target="blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/amir-eskandar-65409356/"
+            class="social-list__link"
+            target="blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
